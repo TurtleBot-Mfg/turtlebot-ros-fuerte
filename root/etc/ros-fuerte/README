@@ -1,0 +1,31 @@
+This directory contains the ROS configuration for your robot.
+
+By default the /etc/ros-distro directory is symlinked to /etc/ros,
+if you want to prevent changes from being overwritten when updates
+are released, remove the symlink and copy /etc/ros-fuerte to /etc/ros.
+
+Files and their uses are listed below:
+
+/etc/ros/network.conf
+
+ * The network configuration can be specified here if
+   auto-configuration fails.
+
+/etc/ros/setup.*
+
+ * Sets up the ROS environment for various shells.
+
+/etc/ros/robot.launch
+
+ * This launch file starts the PR2 from scratch.  The launch file is
+   just an inclusion of the default launch files, but if you have
+   changes to your robot (e.g. removing and arm or adding a sensor),
+   this is the place to put those, and this can be treated like a
+   configuration file.  This file typically references
+   /etc/ros/urdf/robot.xml
+
+/etc/ros/urdf/
+
+ * This directory contains calibrated and uncalibrated
+   fuerte-specific URDFs.  /etc/ros/urdf/robot.xml
+   is loaded by default from robot.launch.

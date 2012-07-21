@@ -1,0 +1,16 @@
+#!/bin/bash
+
+case "$1" in
+    'configure')
+        
+        if [ ! -e /etc/ros ]
+        then
+           ln -s /etc/ros-fuerte /etc/ros
+        fi
+
+        ;;
+
+    *)
+        ;;
+
+esac
