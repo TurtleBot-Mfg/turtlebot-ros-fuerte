@@ -1,3 +1,9 @@
+turtlebot-ros-fuerte (0.0.2) precise; urgency=low
+
+  * Fixes to pass lintian
+
+ -- I Heart Engineering <code@iheartengineering.com>  Sun, 22 Jul 2012 01:23:31 -0400
+
 turtlebot-ros-fuerte (0.0.1) UNRELEASED; urgency=low
 
   * Reinit repo to support git-dch
