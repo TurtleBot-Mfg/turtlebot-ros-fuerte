@@ -1,3 +1,9 @@
+turtlebot-ros-fuerte (0.0.3) precise; urgency=low
+
+  * Everything needs libc, removed implied dep
+
+ -- I Heart Engineering <code@iheartengineering.com>  Sun, 22 Jul 2012 02:59:19 -0400
+
 turtlebot-ros-fuerte (0.0.2) precise; urgency=low
 
   * Fixes to pass lintian
