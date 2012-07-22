@@ -2,12 +2,12 @@ Source: turtlebot-ros-fuerte
 Section: science
 Priority: extra
 Maintainer: I Heart Engineering <code@iheartengineering.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 5), cdbs
+Standards-Version: 3.9.3
 
 Package: turtlebot-ros-fuerte
 Architecture: any
-Depends: python, daemontools, libc6, build-essential, ros-fuerte-turtlebot, ros-fuerte-turtlebot-viz, ros-fuerte-turtlebot-apps
+Depends: ${misc:Depends}, python, daemontools, libc (>=6), build-essential, ros-fuerte-turtlebot, ros-fuerte-turtlebot-viz, ros-fuerte-turtlebot-apps
 Provides: turtlebot-ros
 Description: ROS Fuerte specific TurtleBot files
 Conflicts: 
