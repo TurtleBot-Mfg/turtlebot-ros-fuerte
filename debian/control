@@ -7,7 +7,7 @@ Standards-Version: 3.9.3
 
 Package: turtlebot-ros-fuerte
 Architecture: any
-Depends: ${misc:Depends}, python, daemontools, libc (>=6), build-essential, ros-fuerte-turtlebot, ros-fuerte-turtlebot-viz, ros-fuerte-turtlebot-apps
+Depends: ${misc:Depends}, python, daemontools, build-essential, ros-fuerte-turtlebot, ros-fuerte-turtlebot-viz, ros-fuerte-turtlebot-apps
 Provides: turtlebot-ros
 Description: ROS Fuerte specific TurtleBot files
 Conflicts: 
