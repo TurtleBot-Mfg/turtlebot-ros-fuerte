@@ -1,3 +1,9 @@
+turtlebot-ros-fuerte (0.0.4) precise; urgency=low
+
+  * launch.d support
+
+ -- I Heart Engineering <code@iheartengineering.com>  Wed, 15 Aug 2012 10:14:48 -0400
+
 turtlebot-ros-fuerte (0.0.3) precise; urgency=low
 
   * Everything needs libc, removed implied dep
